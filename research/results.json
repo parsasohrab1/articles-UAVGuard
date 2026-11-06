@@ -1,0 +1,30 @@
+{
+ "note": "real LDV records; 10 healthy + 45 faulty one-second records; tiny data set",
+ "n_healthy": 10,
+ "n_faulty": 45,
+ "detection": {
+  "false_alarm_rate_healthy_loo": 0.1,
+  "detection_rate_by_file": {
+   "F1SV1": 0.02,
+   "F1SV2": 0.2,
+   "F1SV3": 0.4600000000000001,
+   "F2SV1": 0.0,
+   "F2SV2": 0.18,
+   "F2SV3": 0.12000000000000002,
+   "F3SV1": 0.0,
+   "F3SV2": 0.18,
+   "F3SV3": 0.2
+  },
+  "auroc_faulty_vs_healthy_loo": 0.7911111111111111
+ },
+ "diagnosis_fault_type_leave_one_file_out": {
+  "accuracy": 0.3111111111111111,
+  "chance": 0.3333333333333333,
+  "accuracy_by_severity_index": {
+   "1": 0.0,
+   "2": 0.4,
+   "3": 0.5333333333333333
+  }
+ },
+ "diagnosis_random_record_split_leaky": 0.6657142857142857
+}
